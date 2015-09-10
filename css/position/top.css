@@ -1,0 +1,77 @@
+
+.sz_mcc_container {
+
+    padding: 15px 15px 15px;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0
+
+}
+
+.sz_mcc_container .sz_mcc_btn {
+
+    display: block;
+    width: 33%;
+    margin-left: 10px;
+    float: right;
+    max-width: 120px
+}
+
+
+
+
+@-webkit-keyframes slideDown {
+    0% {
+        margin-top: -66px
+    }
+    100% {
+        margin-top: 0
+    }
+}
+
+@keyframes slideDown {
+    0% {
+        margin-top: -66px
+    }
+    100% {
+        margin-top: 0px
+    }
+}
+
+@-webkit-keyframes growDown {
+    0% {
+        height: 0
+    }
+    100% {
+        height: 66px
+    }
+}
+
+@keyframes growDown {
+    0% {
+        height: 0
+    }
+    100% {
+        height: 66px
+    }
+}
+
+.cc_container {
+    -webkit-animation-duration: 0.8s;
+    -moz-animation-duration: 0.8s;
+    -o-animation-duration: 0.8s;
+    animation-duration: 0.8s;
+    -webkit-animation-name: slideDown;
+    animation-name: slideDown
+}
+
+.cc_banner-wrapper {
+    -webkit-animation-duration: 0.8s;
+    -moz-animation-duration: 0.8s;
+    -o-animation-duration: 0.8s;
+    animation-duration: 0.8s;
+    -webkit-animation-name: growDown;
+    animation-name: growDown
+}

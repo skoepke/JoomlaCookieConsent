@@ -1,0 +1,102 @@
+.sz_mcc_container {
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    overflow: hidden;
+    padding: 10px 15px 50px;
+
+}
+
+.sz_mcc_container .sz_mcc_message {
+    line-height: inherit;
+}
+
+.sz_mcc_container .sz_mcc_btn {
+    padding: 8px 16px;
+    background-color: #f1d600;
+    position: absolute;
+    bottom: 10px;
+    left: 15px;
+    right: 15px;
+    text-align: center;
+
+    width: auto;
+    margin-left: 0;
+    float: none;
+    max-width: none;
+}
+
+@media screen and (min-width: 500px) {
+    .sz_mcc_container {
+        left: initial;
+        right: 20px;
+        bottom: 20px;
+        width: 300px;
+        padding-bottom: 60px;
+        border-radius: 6px;
+    }
+
+    .sz_mcc_container .sz_mcc_btn {
+        right: 15px;
+        bottom: 16px
+    }
+
+
+}
+
+@media screen and (min-width: 768px) {
+    .sz_mcc_container {
+        padding-bottom: 60px
+    }
+
+    .sz_mcc_container .sz_mcc_message {
+        font-size: 1em
+    }
+}
+
+
+@-webkit-keyframes fadeInRight {
+    0% {
+        opacity: 0;
+        -webkit-transform: translateX(20px);
+        transform: translateX(20px)
+    }
+    100% {
+        opacity: 1;
+        -webkit-transform: translateX(0);
+        transform: translateX(0)
+    }
+}
+
+@keyframes fadeInRight {
+    0% {
+        opacity: 0;
+        -webkit-transform: translateX(20px);
+        -ms-transform: translateX(20px);
+        transform: translateX(20px)
+    }
+    100% {
+        opacity: 1;
+        -webkit-transform: translateX(0);
+        -ms-transform: translateX(0);
+        transform: translateX(0)
+    }
+}
+
+.sz_mcc_container {
+    -webkit-animation-duration: 0.6s;
+    animation-duration: 0.6s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+    -webkit-animation-duration: 0.8s;
+    -moz-animation-duration: 0.8s;
+    -o-animation-duration: 0.8s;
+    animation-duration: 0.8s;
+    -webkit-animation-fill-mode: both;
+    -moz-animation-fill-mode: both;
+    -o-animation-fill-mode: both;
+    animation-fill-mode: both;
+    -webkit-animation-name: fadeInRight;
+    animation-name: fadeInRight
+}
