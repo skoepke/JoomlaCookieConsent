@@ -42,6 +42,7 @@
                         name="message"
                         type="text"
                         default="MOD_COOKIECONSENT_MESSAGE_DEFAULT"
+                        translate_default="true"
                         label="MOD_COOKIECONSENT_MESSAGE_LABEL"
                         description=""
                         >
@@ -50,6 +51,7 @@
                 <field
                         name="learnMore"
                         type="text"
+                        translate_default="true"
                         default="MOD_COOKIECONSENT_LEARN_MORE_DEFAULT"
                         label="MOD_COOKIECONSENT_LEARN_MORE_LABEL"
                         description=""
@@ -60,6 +62,7 @@
                 <field
                         name="dismissLabel"
                         type="text"
+                        translate_default="true"
                         default="MOD_COOKIECONSENT_DISMISS_DEFAULT"
                         label="MOD_COOKIECONSENT_DISMISS_LABEL"
                         description=""
@@ -69,6 +72,7 @@
                 <field
                         name="linkUrl"
                         type="text"
+                        translate_default="true"
                         default="MOD_COOKIECONSENT_LINKURL_DEFAULT"
                         label="MOD_COOKIECONSENT_LINKURL_LABEL"
                         description=""
@@ -80,6 +84,7 @@
                         name="theme"
                         type="list"
                         default="dark"
+
                         label="MOD_COOKIECONSENT_THEME_LABEL"
                         description="MOD_COOKIECONSENT_THEME_DESCRIPTION">
                     <option value="dark">MOD_COOKIECONSENT_THEME_DARK</option>
@@ -93,6 +98,7 @@
                         type="list"
                         default="bottom"
                         label="MOD_COOKIECONSENT_POSTION_LABEL"
+
                         description="MOD_COOKIECONSENT_POSTION_DESCRIPTION">
                     <option value="bottom">MOD_COOKIECONSENT_POSTION_BOTTOM</option>
                     <option value="top">MOD_COOKIECONSENT_POSTION_TOP</option>
