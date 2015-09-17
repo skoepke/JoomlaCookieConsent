@@ -40,7 +40,8 @@
 
                 <field
                         name="message"
-                        type="text"
+                        type="textarea"
+                        rows="5" cols="15" filter="raw"
                         default="MOD_COOKIECONSENT_MESSAGE_DEFAULT"
                         translate_default="true"
                         label="MOD_COOKIECONSENT_MESSAGE_LABEL"
