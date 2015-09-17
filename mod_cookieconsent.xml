@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <extension type="module" version="3.4" client="site" method="upgrade">
-    <name>CookieConsent</name>
-    <author>setzero! | Sebastian Köpke</author>
+    <name>MOD_COOKIECONSENT</name>
+    <author>setzero.de Sebastian Koepke</author>
     <creationDate>09-09-2015</creationDate>
     <copyright>Copyright (C) 2015. All rights reserved by setzero.de!</copyright>
     <license>http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
     <authorEmail>mail@setzero.de</authorEmail>
     <authorUrl>www.setzero.de</authorUrl>
-    <version>0.0.1</version>
+    <version>0.0.2</version>
     <description>MOD_COOKIECONSENT_DESCRIPTION</description>
 
     <files>
@@ -19,11 +19,6 @@
         <folder>language</folder>
     </files>
 
-    <languages folder="language">
-        <language tag="en-GB">language/en-GB.mod_cookieconsent.ini</language>
-        <language tag="fr-FR">language/fr-FR.mod_cookieconsent.ini</language>
-        <language tag="de-DE">language/de-DE.mod_cookieconsent.ini</language>
-    </languages>
 
     <config>
         <fields name="params">
